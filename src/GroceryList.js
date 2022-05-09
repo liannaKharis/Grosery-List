@@ -54,7 +54,7 @@ export class GroceryList extends Component {
                 <ul>
                     {this.state.groceryList.map((item, index) => (
                         <li onClick={this.crossedWord} key = {index}> 
-                        <img src={icon} width="40px" alt="grocery"/>
+                        <img src={icon} width="40px"alt="grocery"/>
                          {item}</li>
                     ))}
                 </ul>
